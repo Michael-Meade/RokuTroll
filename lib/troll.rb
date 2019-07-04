@@ -22,7 +22,7 @@ class Troll
     end
     def VolumeDownTroll(amount)
         # Turns down the volume as many times 
-        # a inputed
+        # that is inputed
     	for i in 0..amount.to_i
     		@control.VolumeDown
     	end
@@ -30,7 +30,7 @@ class Troll
     def InstantReplayAndRevTroll(amount)
         # Picks randomly from the 'sample' array
         # will either replay or reverse depending on
-        # what Number
+        # what Number is picked
     	sample = [0,1,0,1,0,1,0,1,0,1,0,1,0].sample
     	for i in 0..amount.to_i
     		if sample == 0
